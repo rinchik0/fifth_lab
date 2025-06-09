@@ -8,7 +8,7 @@ target/
 *.ipr
 
 ### Project ###
-src/main/java/org/rinchik/Main.java
+src/main/java/org/example/Main.java
 
 ### Для моих целей не нужно, но в качестве универсальности проекта оставляю ###
 ### Eclipse ###
