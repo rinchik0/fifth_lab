@@ -1,7 +1,14 @@
 package org.example.output;
 
+/**
+ * Класс, реализующий интерфейс Output. Позволяет сохранять весь вывод в строке, чтобы потом считать. Для тестирования.
+ */
 public class CustomOutput implements Output {
     String calls;
+
+    /**
+     * Конструктор.
+     */
     public CustomOutput() {
         calls = "";
     }
@@ -15,6 +22,10 @@ public class CustomOutput implements Output {
         calls += (str + "\n");
     }
 
+    /**
+     * Метод, возвращающий весь вывод.
+     * @return строка
+     */
     public String getAll() {
         return calls;
     }

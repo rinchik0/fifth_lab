@@ -1,5 +1,8 @@
 package org.example.output;
 
+/**
+ * Класс, реализующий интерфейс Output. Позволяет выводить информацию в консоль.
+ */
 public class ConsoleOutput implements Output {
     @Override
     public void print(String str) {
